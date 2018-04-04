@@ -5,7 +5,7 @@
   $config['project-author'] = 'Peter Romijn';
   $config['project-company'] = 'SameBestDevelopment';
 
-  $config['base_url'] = 'http://localhost/framework/';
+  $config['base_url'] = 'http://localhost/leerjaar3/php/dierentuin/';
   // Location of our site;
   // You need to change this when it is in a diffrent folder our
   // If it is in the root folder than it must be empty!

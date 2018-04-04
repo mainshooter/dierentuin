@@ -10,11 +10,11 @@
 
   header('X-Frame-Options: DENY');
 
-  require_once APP_PATH . 'config.php';
-  require_once APP_PATH . 'libs/model/Router.class.php';
+  require_once APP_PATH . '/config.php';
+  require_once APP_PATH . '/libs/model/Router.class.php';
   require_once APP_PATH . '/libs/functions.php';
 
   $Router = new Router($GLOBALS['config']['base_url']);
-  $Router->set_default_controller('display');
+  $Router->set_default_controller('subscription');
   $Router->proces_router();
 ?>
